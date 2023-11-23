@@ -22,7 +22,7 @@ time.sleep(2)
 #iphone
 iphone=driver.find_element(By.XPATH,"//a[text()='iPhone']")
 iphone.click()
-time.sleep(2)
+
 #first picture
 first_pic= driver.find_element(By.XPATH,"//ul[@class='thumbnails']/li[1]")
 first_pic.click()

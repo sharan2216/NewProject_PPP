@@ -18,6 +18,6 @@ def test_tutorials_ninja():
     driver.find_element(By.XPATH,"//button[contains(@class,'btn-default btn-lg')]").click()
     time.sleep(3)
     print("NEXT ASSERTION line printed here")
-    assert driver.find_element(By.LINK_TEXT,"HP LP3065AAA").is_displayed()
+    assert driver.find_element(By.LINK_TEXT,"HP LP3065").is_displayed()
 
     driver.quit()
