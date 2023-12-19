@@ -3,6 +3,11 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
+#comment 1 added
+#comment 2 added
+#comment 3 added
+#comment 4 added
+#comment 5 added
 
 def test_tutorials_ninja():
     driver = webdriver.Chrome()

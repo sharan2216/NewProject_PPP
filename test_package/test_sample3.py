@@ -6,6 +6,10 @@ from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 
+
+#comment 1 added
+#comment 2 added
+
 options = webdriver.ChromeOptions()
 options.add_experimental_option("detach",True)
 #initialize webdriver

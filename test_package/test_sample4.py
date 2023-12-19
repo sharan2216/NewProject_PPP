@@ -14,6 +14,8 @@ driver=webdriver.Chrome(options=options)
 #if required update the chromeDriver version at "C:\Windows" location
 #open URL and maximize window
 
+#comment 1 added
+#comment 2 added
 
 def test_tutorial_ninja():
     driver.get("https://tutorialsninja.com/demo/")
@@ -59,5 +61,4 @@ def test_leet_code():
     # phone=driver.find_element(By.XPATH,"//a[text()='Phones & PDAs']")
     # phone.click()
     time.sleep(2)
-
 
